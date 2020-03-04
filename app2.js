@@ -1,5 +1,5 @@
 var r = document.getElementById("run");
-var audio = new Audio('../running.mp3');
+var audio = new Audio('running.mp3');
 function keepRun(){
     audio.play();
 }

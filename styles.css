@@ -1,6 +1,7 @@
 body {
-  background-image: url('../images/dark.jpg');
+  background-image: url('images/dark.jpg');
 }
+
 button {
   margin-top: 100px;
   margin-left: 75px;
