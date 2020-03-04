@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html en>
+<meta charset="UTF 8">
+<link rel="icon" type="image/png" href="../images/dead.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <title>You have Died!</title>
+</head>
+<body onload="playAud()">
+	<video autoplay muted id="video">
+  	<source src="../dead.mp4" type="video/mp4">
+	</video>
+<style>
+body {
+	background-color: #ffffff
+}
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+</style>
+<script>
+	var video = document.getElementById("video");
+  var audio = new Audio('../die.mp3')
+  function playAud() {
+    audio.play();
+  }
+</script>
+</body>
+</html>

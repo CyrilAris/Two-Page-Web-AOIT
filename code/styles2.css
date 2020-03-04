@@ -1,0 +1,43 @@
+body {
+  background-color: #1e1f26;
+}
+
+button {
+  margin-left: 250px;
+  border-radius: 20px;
+  background: #4d648d;
+  color: #ffffff;
+  height: 100px;
+  width: 25%;
+  font-size: 40px;
+  transition-duration: 0.6s;
+  display: inline-block;
+
+}
+button:hover {
+  background: #d0e1f9;
+  color:  #4D648D;
+} 
+
+p {
+  text-align: center;
+  font-size: 100px;
+  color: #ffffff;
+  margin-top: 200px;
+}
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+audio {
+  visibility: hidden;
+}
